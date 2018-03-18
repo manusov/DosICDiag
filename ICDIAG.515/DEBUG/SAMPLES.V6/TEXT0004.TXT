@@ -1,0 +1,7 @@
+??? debug sample
+September,24  2016  Saturday
+09:26:30 
+
+Processor core clock              2.361 GHz    ( 472.283 MHz x 5.0 )
+FSB data pump                     472.283 MHz  ( 472.283 MHz x 1.0 )
+

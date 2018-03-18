@@ -1,0 +1,25 @@
+Fix DMI scan hang at LENOVO L-IQ965U 
+
+v5
+Source file = !SRC\CPR86.002\BIOS4CCM.101\local.lib
+Subroutine = Scan_DMI
+
+...
+test ah,ah
+jnz ScanDoneBad
+
+;--- ADD EXIT CRITERIA WHEN AX=0 ( RETURNED UPDATED STRUCTURE LENGTH/TYPE ) ---
++ test ax,ax        
++ jz ScanDoneBad
+;--- END OF ADDED ---
+
+cmp ax,0FFFFh
+jne ScanRepeat
+...
+
+Changes for:
+
+PCBROWSE.EXE  5.14  5.15
+CCM64.EXE     1.65  1.66
+BIOS.EXE      0.85  0.86
+POWER.EXE     0.86  0.87  
