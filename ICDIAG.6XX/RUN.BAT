@@ -1,1 +1,0 @@
-exe\icdiag.exe

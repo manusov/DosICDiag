@@ -1,6 +1,0 @@
-device = video.cpr
-device = keyboard.cpr
-device = sound.cpr
-device = mouse.cpr
-device = memory.cpr
-device = files.cpr

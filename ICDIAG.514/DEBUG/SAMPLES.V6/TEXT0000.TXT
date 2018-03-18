@@ -1,9 +1,0 @@
-??? debug sample
-May,1  2016  Sunday
-00:38:22 
-
-Intel Architecture 64 (Itanium family)  not supported
-Intel Extended Memory 64 Technology     not supported
-Linear virtual address size             48-bit (256.0 TB)
-Physical address size                   39-bit (512.0 GB)
-
